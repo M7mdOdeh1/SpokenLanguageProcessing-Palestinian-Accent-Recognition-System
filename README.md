@@ -13,19 +13,19 @@ The training and testing dataset used in this project can be accessed via the fo
 - `Spectral Contrast`: Considers the amplitude difference between peaks and valleys in the sound spectrum.
 
 ### Classifiers
-1. Random Forest Classifier
-  - 100 trees
-  - Random state: 42
-  - Standard Scaler for feature normalization
+1. **Random Forest Classifier**
+   - 100 trees
+   - Random state: 42
+   - Standard Scaler for feature normalization
 
-2. Logistic Regression Classifier
-  - Uses probabilities for class prediction
-  - Standard Scaler for feature normalization
+2. **Logistic Regression Classifier**
+   - Uses probabilities for class prediction
+   - Standard Scaler for feature normalization
 
-3. SVM Classifier
-  - RBF kernel
-  - Regularization parameter (C): 10.0
-  - Gamma: 'scale'
+3. **SVM Classifier**
+   - RBF kernel
+   - Regularization parameter (C): 10.0
+   - Gamma: 'scale'
 
 ## Results and Comparison
 | Classifier              | Overall Accuracy | Precision (Hebron) | Recall (Hebron) | F1-Score (Hebron) | Precision (Jerusalem) | Recall (Jerusalem) | F1-Score (Jerusalem) | Precision (Nablus) | Recall (Nablus) | F1-Score (Nablus) | Precision (Ramallah) | Recall (Ramallah) | F1-Score (Ramallah) |
