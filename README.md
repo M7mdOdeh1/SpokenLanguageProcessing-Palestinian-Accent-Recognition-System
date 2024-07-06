@@ -30,8 +30,11 @@ This project aims to develop a system that recognizes different Palestinian acce
 | Logistic Regression     | 65.00%           | 83%               | 100%            | 91%               | 60%                   | 60%                 | 60%                   | 100%               | 40%              | 57%                | 43%                  | 60%                | 50%                 |
 | SVM                     | 75.00%           | 83%               | 100%            | 91%               | 100%                  | 100%                | 100%                  | 100%               | 40%              | 57%                | 43%                  | 60%                | 50%                 |
 
+### PCA of Accesnts for SVM Classifier
+![image](https://github.com/M7mdOdeh1/SpokenLanguageProcessing-Palestinian-Accent-Recognition-System/assets/111658319/e0ea29b7-2108-44a5-a89e-38624dd7b095)
+
 ### Confusion Matrix for SVM Classifier
-![image](https://github.com/M7mdOdeh1/SpokenLanguageProcessing-Palestinian-Accent-Recognition-System/assets/111658319/18c44cc0-6287-42a0-9bcd-3f752e96abea)
+![image](https://github.com/M7mdOdeh1/SpokenLanguageProcessing-Palestinian-Accent-Recognition-System/assets/111658319/896d8d2e-919e-4d42-a1ac-c78a412f3c97)
 
 ## Conclusion
 The project successfully developed a system to recognize Palestinian accents using three different classifiers. The SVM classifier performed the best in terms of overall accuracy, followed by Random Forest and Logistic Regression. The confusion matrix for the SVM classifier demonstrates its effectiveness in correctly identifying the different accents.
