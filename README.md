@@ -10,18 +10,18 @@ This project aims to develop a system that recognizes different Palestinian acce
 
 ### Classifiers
 1. Random Forest Classifier
-- 100 trees
-- Random state: 42
-- Standard Scaler for feature normalization
+  - 100 trees
+  - Random state: 42
+  - Standard Scaler for feature normalization
 
 2. Logistic Regression Classifier
-- Uses probabilities for class prediction
-- Standard Scaler for feature normalization
+  - Uses probabilities for class prediction
+  - Standard Scaler for feature normalization
 
 3. SVM Classifier
-- RBF kernel
-- Regularization parameter (C): 10.0
-- Gamma: 'scale'
+  - RBF kernel
+  - Regularization parameter (C): 10.0
+  - Gamma: 'scale'
 
 ## Results and Comparison
 | Classifier              | Overall Accuracy | Precision (Hebron) | Recall (Hebron) | F1-Score (Hebron) | Precision (Jerusalem) | Recall (Jerusalem) | F1-Score (Jerusalem) | Precision (Nablus) | Recall (Nablus) | F1-Score (Nablus) | Precision (Ramallah) | Recall (Ramallah) | F1-Score (Ramallah) |
@@ -36,7 +36,7 @@ This project aims to develop a system that recognizes different Palestinian acce
 The project successfully developed a system to recognize Palestinian accents using three different classifiers. The SVM classifier performed the best in terms of overall accuracy, followed by Random Forest and Logistic Regression. The confusion matrix for the SVM classifier demonstrates its effectiveness in correctly identifying the different accents.
 
 ## Contact
-For any questions or suggestions, please contact:
-Mohammed Owda: 1200089@birzeit.edu
-Mohammad Abu Shams: 1200549@birzeit.edu
-Mohammad Sabobeh: 1200388@birzeit.edu
+For any questions or suggestions, please contact: 
+- Mohammed Owda: 1200089@birzeit.edu 
+- Mohammad Abu Shams: 1200549@birzeit.edu 
+- Mohammad Sabobeh: 1200388@birzeit.edu 
