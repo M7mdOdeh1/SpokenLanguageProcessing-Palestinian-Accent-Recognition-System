@@ -3,6 +3,10 @@
 ## Project Overview
 This project aims to develop a system that recognizes different Palestinian accents from Jerusalem, Nablus, Hebron, and Ramallah. The system uses Mel Frequency Cepstral Coefficients (MFCCs) for feature extraction and employs three machine learning classifiers: Support Vector Machine (SVM), Random Forest, and Logistic Regression. The goal is to improve the accuracy of accent recognition and contribute to the research on Palestinian accents and Arabic speech recognition.
 
+## Dataset
+The training and testing dataset used in this project can be accessed via the following link: [Dataset on Google Drive](https://drive.google.com/drive/folders/1UUk2kKcVm_nI_-5qmkZIGG3GVtI7jbu6).
+
+
 ## Methodology
 ### Feature Extraction
 - `MFCCs`: Capture the short-term power spectrum of the sound.
